@@ -2,19 +2,18 @@
 在线考试防作弊js完整版，依赖jquery
 
 # 在线考试防作弊方案
-1.窗口大小变化作弊提醒
-2.离开当前窗口作弊提醒
-3.点击链接转外部提示退出考试
-4.防刷新倒计时
-5.考试违规3次退出当前考试（系统关闭当前窗口）
-6.禁用鼠标右击，禁用复制粘贴
+1.窗口大小变化作弊提醒<br /> 
+2.离开当前窗口作弊提醒<br /> 
+3.点击链接转外部提示退出考试<br /> 
+4.防刷新倒计时<br /> 
+5.考试违规3次退出当前考试（系统关闭当前窗口）<br /> 
+6.禁用鼠标右击，禁用复制粘贴<br /> 
 
 # js源码
 -----------------------------------
-<pre>
-<script type="text/javascript">
+	<script type="text/javascript">
 		//屏蔽右击
-		document.body.oncontextmenu=document.body.ondragstart= document.body.onselectstart=document.body.onbeforecopy=function(){return false;};
+		document.body.oncontextmenu=document.body.ondragstart= 	document.body.onselectstart=document.body.onbeforecopy=function(){return false;};
 		//屏蔽复制粘贴
 		document.body.oncopy=document.body.oncut=function(){return false;};	
 		var blurNum=1;
@@ -54,4 +53,4 @@
 		 }
 		}
 	</script>
-</pre>
+
