@@ -10,6 +10,8 @@
 6.禁用鼠标右击，禁用复制粘贴
 
 # js源码
+-----------------------------------
+<pre>
 <script type="text/javascript">
 		//屏蔽右击
 		document.body.oncontextmenu=document.body.ondragstart= document.body.onselectstart=document.body.onbeforecopy=function(){return false;};
@@ -52,3 +54,4 @@
 		 }
 		}
 	</script>
+</pre>
